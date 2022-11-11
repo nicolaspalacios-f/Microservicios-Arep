@@ -1,0 +1,10 @@
+.sub-title{
+    margin: 0;
+}
+
+.item {
+    background-color: #384D59;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+}

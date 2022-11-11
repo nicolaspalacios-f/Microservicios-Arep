@@ -1,0 +1,10 @@
+.navbar {
+    overflow: hidden;
+    background-color: #082040;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+#logo{
+    display: inline;
+}

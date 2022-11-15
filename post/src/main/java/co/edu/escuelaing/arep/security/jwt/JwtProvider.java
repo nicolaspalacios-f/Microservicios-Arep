@@ -23,7 +23,7 @@ public class JwtProvider {
     private static final String BEARER = "Bearer ";
     private static final String AUTHORIZATION = "Authorization";
 
-    @Value("${edu.eci.arep.jwt.aws.identityPoolUrl}")
+    @Value("${co.edu.eci.arep.jwt.aws.identityPoolUrl}")
     private String identityPoolUrl;
 
     @Autowired

@@ -22,10 +22,10 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 public class CognitoRest {
 
-    @Value("${edu.eci.arep.post}")
+    @Value("${edu.eci.arep.postStream}")
     private String poststream;
 
-    @Value("${edu.eci.arep.get}")
+    @Value("${edu.eci.arep.getStream}")
     private String getstream;
 
     @GetMapping("/stream")

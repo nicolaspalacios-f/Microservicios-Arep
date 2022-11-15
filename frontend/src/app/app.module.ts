@@ -11,7 +11,7 @@ import { SignupComponent } from './signup/signup.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeedComponent } from './feed/feed.component';
-import { MenuComponent } from './menu/menu.component';  
+import { MenuComponent } from './menu/menu.component';
 import { interceptorSpringProvider } from './interceptors/api-rest.interceptor';
 
 @NgModule({
@@ -22,15 +22,10 @@ import { interceptorSpringProvider } from './interceptors/api-rest.interceptor';
     LoginComponent,
     SignupComponent,
     FeedComponent,
-    MenuComponent
+    MenuComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [interceptorSpringProvider],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,20 +1,24 @@
 <div class="container">
-    <button class="submitButton2" (click)="getPublications()">Actualizar 🔁</button>
-    <div class="subcontainer">
-        <h1 class="title">Escribir</h1>
-        <input id="inputBox" type="text" maxlength="140" #inputBox>
-        <button class="submitButton" (click)="sendReq(inputBox.value)">Submit</button>
-    </div>
-    <div class="subcontainer">
-        <h1 class="title">Feed</h1>
-        <div class="tweets-container" style="list-style: none;">
-            <li *ngFor="let publicacion of publicaciones">
-                <div class="item">
-                    <h3 class="sub-title">{{publicacion.author}}</h3>
-                    <hr>
-                    <p>{{publicacion.texto}}</p>
-                </div>
-            </li>
+  <div class="subcontainer">
+    <button class="submitButton2" (click)="getPublications()">
+      Actualizar
+    </button>
+    <div></div>
+    <input id="inputBox" type="text" maxlength="140" #inputBox />
+    <button class="submitButton" (click)="sendReq(inputBox.value)">
+      Submit
+    </button>
+  </div>
+  <div class="subcontainer">
+    <h1 class="title">Feed</h1>
+    <div class="tweets-container" style="list-style: none">
+      <li *ngFor="let publicacion of publicaciones">
+        <div class="item">
+          <h3 class="sub-title">{{ publicacion.author }}</h3>
+          <hr />
+          <p>{{ publicacion.text }}</p>
         </div>
+      </li>
     </div>
+  </div>
 </div>

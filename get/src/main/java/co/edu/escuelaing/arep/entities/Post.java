@@ -19,9 +19,6 @@ public class Post implements Serializable {
     private Long id;
     @Column(name = "author")
     private String author;
-    @ManyToOne
-    @JoinColumn(name = "hilo", nullable = false)
-    private Hilo hilo;
     @Column(name = "title")
     private String title;
     @Column(name = "text")
@@ -30,15 +27,14 @@ public class Post implements Serializable {
     public Post() {
     }
 
-    public Post(Long id, String author, Hilo hilo, String titulo, String texto) {
+    public Post(Long id, String author, String titulo, String texto) {
         this.id = id;
         this.author = author;
-        this.hilo = hilo;
         this.title = titulo;
         this.text = texto;
     }
 
-    public Post(String author, Hilo hilo, String titulo, String texto) {
+    public Post(String author, String titulo, String texto) {
         this.author = author;
         this.title = titulo;
         this.text = texto;
@@ -74,14 +70,6 @@ public class Post implements Serializable {
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public Hilo getHilo() {
-        return hilo;
-    }
-
-    public void setHilo(Hilo hilo) {
-        this.hilo = hilo;
     }
 
 }

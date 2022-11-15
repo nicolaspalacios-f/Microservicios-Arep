@@ -18,17 +18,17 @@ import org.springframework.context.annotation.Bean;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-@ComponentScan(basePackages = { "edu.escuelaing.arep" })
+@ComponentScan(basePackages = { "co.edu.escuelaing.arep" })
 @SpringBootApplication
 public class App {
 
-    @Value("${edu.eci.arep.jwt.aws.connectionTimeout}")
+    @Value("${co.edu.eci.arep.jwt.aws.connectionTimeout}")
     private int connectionTimeout;
 
-    @Value("${edu.eci.arep.jwt.aws.readTimeout}")
+    @Value("${co.edu.eci.arep.jwt.aws.readTimeout}")
     private int readTimeout;
 
-    @Value("${edu.eci.arep.jwt.aws.jwkUrl}")
+    @Value("${co.edu.eci.arep.jwt.aws.jwkUrl}")
     private String jwkUrl;
 
     public static void main(String[] args) {

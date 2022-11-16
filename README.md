@@ -1,6 +1,6 @@
 # Titulo
 
-Secure App
+Monolito AWS Cognito
 
 ## Descripción
 
@@ -33,7 +33,7 @@ El proyecto tiene 4 servicios que se deben correr en orden:
 
 Puede encontrar un video demostrativo de la aplicación funcionando en el siguiente link:
 
-[Video Demostrativo](./media/video.mp4)
+[Video Demostrativo](./media/funcionamientoVideo.mp4)
 
 ## Autor
 

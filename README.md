@@ -40,6 +40,10 @@ Puede encontrar un video demostrativo de la aplicación funcionando en el siguie
 - **Juan Carlos Baez Lizarazo** - [juanbaezl](https://github.com/juanbaezl)
 - **Nicolas Palacios** - [nicolaspalacios-f](https://github.com/nicolaspalacios-f)
 
+### Creditos
+
+Tomamos como referencia para hacer la implemntación de cognito el siguiente video: https://www.youtube.com/watch?v=KtY_MqJ7f9g&ab_channel=LuigiCode y para subir el servidor web tomamos como referencia elsiguiente video: youtube.com/watch?v=SICYw5sHv8Ayoutube.com/watch?v=SICYw5sHv8A
+
 ## Fecha
 
 Noviembre, 2022
